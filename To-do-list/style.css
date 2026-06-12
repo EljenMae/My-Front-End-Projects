@@ -1,0 +1,35 @@
+* {
+    font-family: 'Pliant', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f1919;
+}
+
+.header{
+    text-align: center;
+    padding-top:10px; 
+    color: white;
+}
+.card-stats {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+    color: white;
+}
+.align-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+.task-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+    color: white;
+}
