@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <div class="header">
+        <h1>My Tasks</h1>
+        <p>Today date</p> <!--Date should be dynamic here-->
+    </div>
+
+    <!--Card based top-->
+    <div class="card-stats">
+        <div class="card-stats__item card-stats__item--total">
+            <h3>1</h3> <!--This number here should be dynamic-->
+            <p>Total</p>
+        </div>
+        <div class="card-stats__item card-stats__item--done">
+            <h3>1</h3>
+            <p>Done</p>
+        </div>
+        <div class="card-stats__item card-stats__item--pending">
+            <h3>0</h3> <!--This number here should be dynamic-->
+            <p>Pending</p>
+        </div>
+    </div>
+
+    <!--buttons where it filter-->
+    <div class="align-buttons">
+        <button class="btn btn--all">All</button>
+        <button class="btn btn--active">Active</button>
+        <button class="btn btn--done">Done</button>
+    </div>
+
+    <!--List of task-->
+    <div class="task-list">
+        <div class="task">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <button class="btn btn--delete">Delete </button>
+        </div>
+    </div>
+    </main>
+</body>
+</html>
