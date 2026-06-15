@@ -40,14 +40,26 @@ body {
     gap: 10px;
     padding-top: 10px;
     padding-bottom: 30px;
+    
 }
-.input-task .input {
+.input-task input {
     padding: 10px;
     border: none;
     border-radius: 5px;
     width: 450px;
     font-size: 16px;
-    color:#444441;
+    color: #444441;
+    background-color: #444441;
+    transition: background-color 150ms ease, color 150ms ease;
+}
+.input-task input:hover,
+.input-task input:focus {
+    background-color: #444441;
+    color: #ffffff;
+    outline: none;
+}
+.input-task input::placeholder {
+    color: #8a8a8a;
 }
 .input-task .btn {
     color:white;
@@ -60,8 +72,8 @@ body {
 .align-buttons {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    color: white;
+    gap: 15px;
+    
 }
 .btn {
     padding: 10px 20px;
@@ -69,6 +81,14 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    background-color: #444441;
+    color: white
+    
+}
+.btn:hover {
+    background-color: #ffffff;
+    color: #1f1919;
+
 }
 
 .task-list {
